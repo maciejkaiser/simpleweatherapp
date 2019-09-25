@@ -43,13 +43,22 @@ body{
 .degree-section span{
      font-size: 30vh;
      margin:10px;
+    
+        content: "\00B0";
+      
 }
  
+.temperature-description{
+    font-size: 25px;
+    padding-top:20px;
+}
 
 .alert{
-    background-color:red;
+    background-color:#202020;
     width:100%;
     top:0;
-    height: 80px;
+    height: 40px;
     position:fixed;
+    text-align: center;
+    padding: 10px;
 }
