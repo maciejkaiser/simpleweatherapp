@@ -16,8 +16,21 @@ window.addEventListener("load", () => {
     let temperatureValue = 0;
     let humidityValue = 0;
 
-    
 
+    //Flip section event functionality
+    degreeSection.addEventListener("click", () => {
+
+        temperatureWrapper.classList.toggle("flipped");
+
+        if (temperatureSpan.textContent === "C") {
+            temperatureDegree.textContent = humidityValue;
+            temperatureSpan.textContent = "%";
+        } else {
+            temperatureDegree.textContent = temperatureValue;
+            temperatureSpan.textContent = "C";
+        }
+
+    });
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
