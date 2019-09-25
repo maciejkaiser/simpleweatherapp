@@ -14,3 +14,42 @@ body{
     color:white;
     font-family: sans-serif;
 }
+
+.location, .temperature{
+    height: 30vh;
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location-timezone{
+    font-size:20vh;
+}
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section h2{
+    font-size:40vh;
+}
+
+.degree-section span{
+     font-size: 30vh;
+     margin:10px;
+}
+ 
+
+.alert{
+    background-color:red;
+    width:100%;
+    top:0;
+    height: 80px;
+    position:fixed;
+}
