@@ -42,10 +42,7 @@ body{
 
 .degree-section span{
      font-size: 30vh;
-     margin:10px;
-    
-        content: "\00B0";
-      
+     margin:10px;      
 }
  
 .temperature-description{
@@ -61,4 +58,8 @@ body{
     position:fixed;
     text-align: center;
     padding: 10px;
+}
+
+#footer{
+    font-size:20px;
 }
